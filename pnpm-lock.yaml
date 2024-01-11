@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@babel/core': ^7.18.13
@@ -15,10 +15,10 @@ specifiers:
 devDependencies:
   '@babel/core': 7.21.4
   '@babel/preset-env': 7.21.4_@babel+core@7.21.4
-  babel-loader: 8.3.0_c3tfwv7p35clwcmkb5fnkshzei
+  babel-loader: 8.3.0_16e65b57efdf44bb098a0f4ad548f922
   clean-webpack-plugin: 4.0.0_webpack@5.79.0
   core-js: 3.30.1
-  ts-loader: 9.4.2_fe7sbdmk43jcl5475zpfoez4uq
+  ts-loader: 9.4.2_typescript@5.0.4+webpack@5.79.0
   typescript: 5.0.4
   webpack: 5.79.0_webpack-cli@4.10.0
   webpack-cli: 4.10.0_webpack@5.79.0
@@ -1369,7 +1369,7 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/configtest/1.2.0_twduw4g6gld2ld7kevqi3javqa:
+  /@webpack-cli/configtest/1.2.0_9d874b70de32c7a58fea25608da41580:
     resolution: {integrity: sha512-4FB8Tj6xyVkyqjj1OaTqCjXYULB9FMkqQ8yGrZjRDrYh0nOE+7Lhs45WioWQQMV+ceFlE368Ukhe6xdvJM9Egg==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
@@ -1465,7 +1465,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /babel-loader/8.3.0_c3tfwv7p35clwcmkb5fnkshzei:
+  /babel-loader/8.3.0_16e65b57efdf44bb098a0f4ad548f922:
     resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -2396,7 +2396,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-loader/9.4.2_fe7sbdmk43jcl5475zpfoez4uq:
+  /ts-loader/9.4.2_typescript@5.0.4+webpack@5.79.0:
     resolution: {integrity: sha512-OmlC4WVmFv5I0PpaxYb+qGeGOdm5giHU7HwDDUjw59emP2UYMHy9fFSDcYgSNoH8sXcj4hGCSEhlDZ9ULeDraA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2486,7 +2486,7 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 1.2.0_twduw4g6gld2ld7kevqi3javqa
+      '@webpack-cli/configtest': 1.2.0_9d874b70de32c7a58fea25608da41580
       '@webpack-cli/info': 1.5.0_webpack-cli@4.10.0
       '@webpack-cli/serve': 1.7.0_webpack-cli@4.10.0
       colorette: 2.0.20

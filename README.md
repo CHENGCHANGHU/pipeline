@@ -1,3 +1,3 @@
-# @golden-tiger/javascript-package-template
+# @golden-tiger/pipeline
 
-JavaScript Package Template
+TaskPipeline

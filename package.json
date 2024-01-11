@@ -1,6 +1,6 @@
 {
   "name": "@golden-tiger/javascript-package-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "@golden-tiger/javascript-package-template",
   "main": "./lib/cjs-module.js",
   "module": "./lib/es-module.js",
